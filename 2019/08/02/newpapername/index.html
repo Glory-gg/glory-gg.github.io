@@ -2,7 +2,7 @@
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-<title>newpapername - Hexo</title>
+<title>php 删除一维数组中某一个值元素的操作方法 - Hexo</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
@@ -11,7 +11,7 @@
 
 
 
-<link rel="alternative" href="/atom.xml" title="newpapername" type="application/atom+xml">
+<link rel="alternative" href="/atom.xml" title="php 删除一维数组中某一个值元素的操作方法" type="application/atom+xml">
 
 
 
@@ -33,7 +33,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/logo.svg" alt="newpapername" height="28">
+                <img src="/images/logo.svg" alt="php 删除一维数组中某一个值元素的操作方法" height="28">
             
             </a>
         </div>
@@ -63,7 +63,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    a few seconds read (About 0 words)
+                    a few seconds read (About 35 words)
                 </span>
                 
                 
@@ -72,11 +72,24 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                newpapername
+                php 删除一维数组中某一个值元素的操作方法
             
         </h1>
         <div class="content">
-            
+            <figure class="highlight php hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">$tmp = <span class="hljs-string">'324'</span>;</span><br><span class="line"></span><br><span class="line">$arr = <span class="hljs-keyword">array</span>(</span><br><span class="line"></span><br><span class="line">    <span class="hljs-string">'0'</span> =&gt; <span class="hljs-string">'321'</span>,</span><br><span class="line"></span><br><span class="line">    <span class="hljs-string">'1'</span> =&gt; <span class="hljs-string">'322'</span>,</span><br><span class="line"></span><br><span class="line">    <span class="hljs-string">'2'</span> =&gt; <span class="hljs-string">'323'</span>,</span><br><span class="line"></span><br><span class="line">    <span class="hljs-string">'3'</span> =&gt; <span class="hljs-string">'324'</span>,</span><br><span class="line"></span><br><span class="line">    <span class="hljs-string">'4'</span> =&gt; <span class="hljs-string">'325'</span>,</span><br><span class="line"></span><br><span class="line">    <span class="hljs-string">'5'</span> =&gt; <span class="hljs-string">'326'</span>,</span><br><span class="line"></span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight php hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$arr = array_merge(array_diff($arr, <span class="hljs-keyword">array</span>($tmp)));</span><br><span class="line">$arr = array_merge(array_diff($arr, $tmp));</span><br><span class="line"><span class="hljs-comment">//上面的两种方式都是可以的</span></span><br><span class="line"></span><br><span class="line">var_dump($arr);</span><br></pre></td></tr></table></figure>
+
+
+        </div>
+        
+        <div class="level is-size-7 is-uppercase">
+            <div class="level-start">
+                <div class="level-item">
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/tags/php-删除一维数组中某一个值元素的操作方法/">php 删除一维数组中某一个值元素的操作方法</a>
+                </div>
+            </div>
         </div>
         
         
@@ -115,7 +128,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/logo.svg" alt="newpapername" height="28">
+                    <img src="/images/logo.svg" alt="php 删除一维数组中某一个值元素的操作方法" height="28">
                 
                 </a>
                 <p class="is-size-7">
